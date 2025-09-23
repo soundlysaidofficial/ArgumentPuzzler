@@ -272,52 +272,51 @@
 <script>
 /* ========== Levels (add unlimited options; bank auto-wraps) ========== */
 const LEVELS = [
-  {
-  basePremise: "The United States already has over 9000 strategic nuclear warheads, compared to about 7000 for the Soviet Union.",
-  conclusion: "Therefore, deploying the MX would diminish U.S. security.",
+{
+  basePremise: "Three friends — Ana, Ben, and Cara — are sitting in a row of three chairs.",
+  conclusion: "Therefore, Cara is in the middle seat.",
   options: [
-    "Once both sides possess more than enough warheads to destroy each other, additional weapons do not improve deterrence.",
-    "Building new missiles would prompt the Soviets to add more of their own, worsening the arms race.",
-    "New missile programs guarantee technological superiority for the United States.",
-    "The Soviet Union would never respond to U.S. nuclear deployments.",
-    "Nuclear superiority directly translates into political stability.",
-    "Producing MX missiles would stimulate the domestic economy."
+    "Ben is sitting next to Ana.",
+    "Ana is not sitting on the left.",
+    "Cara is sitting next to Ana.",
+    "Ben is not sitting on the right.",
+    "Ana is sitting in the middle.",
+    "Cara is not sitting on the left."
   ],
-  answerIndices: [0, 1]
-  },
-  {
-    basePremise: "A colonial territory seeks independence from its empire.",
-    conclusion: "As a result, the colonial territory successfully achieves independence.",
-    options: [
-      "The empire is weakened by wars abroad.",
-      "Weakened empires reduce military presence in colonies.",
-      "Reduced military presence allows local militias to organize effectively.",
-      "Organized militias can resist imperial forces directly.",
-      "Resistance that cannot be crushed forces the empire to negotiate.",
-      "Negotiations often include economic trade concessions.",
-      "The colony has fertile agricultural land.",
-      "The empire introduces new taxes in the colony.",
-      "Some colonists migrate to urban centers of the empire."
-    ],
-    answerIndices: [0, 1, 2, 4]
-  },
-  {
-    basePremise: "An authoritarian ruler faces growing domestic unrest.",
-    conclusion: "Consequently, the ruler is overthrown by a popular revolution.",
-    options: [
-      "Economic crises intensify public dissatisfaction.",
-      "Public dissatisfaction fuels large-scale protests.",
-      "Protests overwhelm state security forces.",
-      "The security forces refuse to continue violent repression.",
-      "Elite allies withdraw support once repression weakens.",
-      "Without elite and security backing, the regime collapses.",
-      "Neighboring countries issue condemnations.",
-      "International journalists report on the unrest.",
-      "The ruler promises reforms but delays implementation.",
-      "The protests disrupt local businesses."
-    ],
-    answerIndices: [0, 1, 2, 3, 4, 5]
-  }
+  answerIndices: [1, 3]
+},
+{
+  basePremise: "Each item in the café menu must be tagged as either Food or Drink, never both.",
+  conclusion: "Therefore, the smoothie should be tagged as a Drink, not Food.",
+  options: [
+    "Anything blended is always Food.",
+    "Drink is something normally consumed by sipping.",
+    "Food must always be cooked before serving.",
+    "The smoothie is served in a cup and consumed by sipping.",
+    "Food is something eaten with utensils.",
+    "If something is cold, it must be tagged as Food.",
+    "The café tags items by their most common use, not by ingredients.",
+    "A dessert is always Food.",
+    "Some drinks can be made with fruit."
+  ],
+  answerIndices: [1, 3, 6]
+},
+{
+  basePremise: "Only drakes are quorns. (i.e., all quorns are drakes)",
+  conclusion: "Therefore, all quorns are kelps, and no quorn is a jorb.",
+  options: [
+    "Some quorns are not mogs.",
+    "No jorb is a drake.",
+    "Some spores are not jorbs.",
+    "All spores are jorbs.",
+    "Some mogs are neither kelps nor spores.",
+    "All quorns are mogs.",
+    "Every mog is either a kelp or a spore.",
+    "Some jorbs are drakes.",
+    "Some quorns are jorbs."
+  ],
+  answerIndices: [5, 6, 3, 1]
+}
 ];
 
 
