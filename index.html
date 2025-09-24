@@ -273,52 +273,49 @@
 /* ========== Levels (add unlimited options; bank auto-wraps) ========== */
 const LEVELS = [
 {
-basePremise: "It will be past midnight when we leave.",
-conclusion: "Therefore, we'll have to travel in darkness.",
+basePremise: "You need a printed ticket tonight.",
+conclusion: "Therefore, you should plug in the printer now.",
 options: [
-"The moon is new.",
-"We won't have any daylight left.",
-"The moon is not new.",
-"There will be no moonlight either.",
-"The moon is rising.",
-"We leave in the darkest pit of the forest."
+"If an action is the only easy way to get what you need, you should do it.",
+"Bright screens look nice.",
+"Plugging in the printer is easy.",
+"The printer is on the desk.",
+"You can't print tonight unless the printer is plugged in.",
+"You need to print photos tomorrow."
 ],
-answerIndices: [0, 1, 3]
+answerIndices: [4, 2, 0]
 },
 {
-  basePremise: "Actions that intentionally support practices causing unnecessary suffering are morally wrong.",
-  conclusion: "Therefore, buying factory-farmed meat is morally wrong.",
-  options: [
-    "Weekend barbecues are popular.",
-    "Factory farming causes unnecessary suffering.",
-    "Some groceries offer coupons.",
-    "Buying factory-farmed meat financially supports factory farming.",
-    "Grass-fed options cost more.",
-    "Sometimes one does not know whether their purchases come from a factory farm.",
-    "Factory farms put animals into disgusting conditions.",
-    "On the balance of probability, one is aware whether or not the meat they buy is factory-farmed",
-    "Meat packing plants are noisy.",
-    "If one knows that they are financially supporting a practice and do not cease, they are intentionally supporting that practice.",
-    "Refrigerators keep food cold.",
-    "Eating more vegetables can be healthy."
-  ],
-  answerIndices: [1,3,7,9]
+basePremise: "Some things are caused.",
+conclusion: "Therefore, there exists a first cause.",
+options: [
+"If nothing causes itself, any caused thing must have an earlier cause.",
+"Some things happen for no reason.",
+"Nothing causes itself.",
+"A first cause is a cause that does not itself need a cause.",
+"The chain of earlier causes cannot be endless.",
+"Everything has a cause.",
+"If something is caused and the chain of earlier causes cannot be endless, there must be a first cause.",
+"Time is circular."
+],
+answerIndices: [2, 0, 4, 6]
 },
 {
-  basePremise: "Only drakes are quorns. (i.e., all quorns are drakes)",
-  conclusion: "Therefore, all quorns are kelps, and no quorn is a jorb.",
-  options: [
-    "Some quorns are not mogs.",
-    "No jorb is a drake.",
-    "Some spores are not jorbs.",
-    "All spores are jorbs.",
-    "Some mogs are neither kelps nor spores.",
-    "All quorns are mogs.",
-    "Every mog is either a kelp or a spore.",
-    "Some jorbs are drakes.",
-    "Some quorns are jorbs."
-  ],
-  answerIndices: [5, 6, 3, 1]
+basePremise: "We start with all lanterns unlit.",
+conclusion: "Therefore, finishing with exactly one lantern lit is impossible.",
+options: [
+"An attendant can secretly snuff one lantern alone.",
+"Putting out is allowed only two at a time; one alone cannot be put out.",
+"You may slide lanterns along the table.",
+"From these rules, the number of lit lanterns changes only by twos, never by ones.",
+"Lighting always turns on two lanterns at once.",
+"Lanterns can be bright or dim.",
+"If the number changes only by twos, you can't reach exactly one from zero.",
+"Swapping places only changes who holds a lit lantern; it never changes how many are lit.",
+"The hall is quiet at night.",
+"Dropping a lantern might put it out."
+],
+answerIndices: [4, 1, 7, 3, 6]
 }
 ];
 
